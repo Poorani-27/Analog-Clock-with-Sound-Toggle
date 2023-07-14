@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: yellow
+  }
+  
+  .clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 7px solid #333;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  
+  .hour-hand,
+  .minute-hand,
+  .second-hand {
+    position:  absolute;
+    background-color: #333;
+    transform-origin: center;
+  }
+  
+  .hour-hand {
+    width: 5px;
+    height: 50px;
+    top: 50px;
+    left: 90px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .minute-hand {
+    width: 4px;
+    height: 120px;
+    top: 50px;
+    left: 99px;
+    border-radius: 0px 4px 0 0;
+    background-color: rgb(35, 188, 239);
+  }
+  
+  .second-hand {
+    width: 2px;
+    height: 100px;
+    top: 50px;
+    left: 99px;
+    background-color: red;
+    border-radius: 2px 2px 0 0;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .center-circle {
+
+    align-items: center;
+    align-self: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 75px;
+    left: 70px;
+    border-radius: 50%;
+    background-color: #fffefe;
+  }
+  
+  .date-time {
+    position: absolute;
+    bottom: -90px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .clock ul li {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 5px;
+  }
+  
+  .clock ul li span {
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+  }
+  
