@@ -1,7 +1,5 @@
 # Analog-Clock-with-Sound-Toggle
-<br> link <b> https://poorani-27.github.# Analog-Clock-with-Sound-Toggle
-<br> link <b> https://poorani-27.github.io/Analog-Clock-with-Sound-Toggle/ <br>
-Project Description: Analog Clock with Sound Toggle
+
 
 This project is an implementation of an analog clock with the ability to toggle the accompanying ticking sound on and off. The clock is designed using HTML, CSS, and JavaScript and offers a visually pleasing display of the current time.
 
@@ -12,3 +10,5 @@ CSS styling is utilized to create an aesthetically appealing clock design. The c
 The JavaScript code controls the clock's functionality. It leverages the `Date` object to obtain the current time, ensuring the hands are accurately positioned. The clock hands are updated every second using the `setInterval()` function, providing a dynamic and synchronized representation of time. The sound toggle feature allows users to enable or disable the ticking sound. When enabled, an audio file (e.g., "tick.mp3") is played each second through the use of the `Audio` object and the `play()` method.
 
 Overall, this project offers an engaging analog clock experience with the added option to control the accompanying ticking sound. It serves as a foundation for further customization, allowing for modifications to the clock's design, the addition of new features, or the incorporation of other visual and audio elements to enhance the overall user experience.
+# Link
+<br> https://poorani-27.github.io/Analog-Clock-with-Sound-Toggle/ <br>
